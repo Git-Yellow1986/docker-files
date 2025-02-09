@@ -1,4 +1,3 @@
 FROM almalinux:9
-EXPOSE 300
 RUN dnf install nginx -y
-CMD ["yum","install","git","-y"]
+EXPOSE 8085 8080
